@@ -1,0 +1,22 @@
+.playground .controls{margin:0 0 30px;padding:30px;background-color:#fff;border-radius:8px}.playground .result{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-line-pack:start;align-content:flex-start}.playground .result .post{position:relative;display:block;margin:0 0 2%;width:32%;border-radius:4px;overflow:hidden}.playground .result .post img{position:absolute;top:50%;left:0;width:100%;border-radius:4px;-webkit-transform:translate(0, -50%);transform:translate(0, -50%)}
+
+.playground .result .post .meta{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(60%, rgba(0,0,0,0.65)), to(rgba(0,0,0,0.65))); */
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 60%, rgba(0,0,0,0.65) 100%); */
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+	}
+	
+	.playground .result .post::after{display:block;padding-top:100%;content:''}#demo1{display:-webkit-box;display:-ms-flexbox;display:flex;margin:20px -5px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap}#demo1 a{display:block;padding:5px;width:16.66666%}#demo1 a img{width:100%;height:auto;border-radius:4px}#demo1+.note{margin-top:-20px}.highlight-me{display:inline-block;padding:5px 10px;color:#89DDFF;font-size:0.95rem;background-color:#474747;border-radius:8px}.highlight-me.multiline,.highlight-me.block{display:block;margin:10px 0;padding:25px;white-space:pre-line}.highlight-me.block{width:50%}.highlight-me [data-type="tag"]{color:#E9716C}.highlight-me [data-type="attr"]{color:#FFCB6B}.highlight-me [data-type="val"]{color:#C3E88D}.highlight-me [data-type="plain"]{color:#fff}
+/*# sourceMappingURL=demo-style.min.css.map */
